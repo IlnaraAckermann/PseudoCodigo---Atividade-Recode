@@ -9,18 +9,12 @@ O objetivo deste protótipo é demonstrar o fluxo básico de um menu de cadastro
 ## Pseudocódigo
 
 ```
-//Função para mostrar cliente, dados e destino
-
-
-// menu com opção cadastrar de cliente, cadastrar  destino,
-// escolher destino, mostra clienter, mostra destino, mostrarViajens,
-// sair
 Inicio
        totalCliente <- 1
        totalDestino <- 1
        totalViagens <- 1
 
-enquanto opcao <> 7 faca
+enquanto opcao <> 10 faca
       escreval ("Digite a opção:")
       escreval ("1.Adicionar cliente")
       escreval ("2.Adicionar Destino")
@@ -28,8 +22,14 @@ enquanto opcao <> 7 faca
       escreval ("4.Listar clientes")
       escreval ("5.Listar Destinos")
       escreval ("6.Listar Viajens")
-      escreval ("7.Sair do menu")
-      .....
+      escreval ("7.Pequisar Clientes")
+      escreval ("8.Pequisar Destinos")
+      escreval ("9.Pequisar Viajens")
+      escreval ("10.Sair do menu")
+      leia (opcao)
+      limpatela
+      escolha opcao
+      caso.....
 ```
 
 ## Funcionalidades
@@ -38,6 +38,7 @@ O protótipo do menu de cadastro oferece as seguintes funcionalidades:
 
 - Cadastro de clientes, destinos e viajens
 - Listagem de clientes, destinos e viajens 
+- Pesquisa de clientes, destinos e viajens
 
 O usuário pode escolher a opção desejada e o programa irá direcioná-lo para o respectivo cadastro ou exibir a listagem do que ja foi cadastrado.
 
